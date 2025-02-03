@@ -18,7 +18,7 @@ simple-codec = []
 [dependencies]
 abio_derive = { path = "../abio_derive", optional = true }
 bincode = { version = "2.0.0-rc.3", default-features = false, features = ["derive"] }
-rand = { version = "0.8.5", default-features = false, features = ["getrandom", "min_const_gen"] }
+rand = { version = "0.9.0", default-features = false, features = ["getrandom", "min_const_gen"] }
 
 # Enable all features for the docs.rs metadata.
 [package.metadata.docs.rs]
